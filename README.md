@@ -15,3 +15,7 @@ En caso de encontrarse la contraseña dentro del diccionario, se limpiará la pa
 Comprobamos su correcto funcionamiento:
 
 ![image](https://github.com/Maalfer/Sudo_BruteForce/assets/96432001/b859188c-bca6-4011-ba40-2f1187374a39)
+
+Comprobamos también el correcto funcionamiento de las excepciones, donde en caso de haber un error al proporcionar los parámetros, se imprimen unas instrucciones:
+
+![image](https://github.com/Maalfer/Sudo_BruteForce/assets/96432001/8b3e11b9-314d-45b5-8fdc-04f1e2867f95)
