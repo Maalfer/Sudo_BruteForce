@@ -1,5 +1,5 @@
 # Sudo_BruteForce
-Script hecho en bash para realizar un ataque de fuerza bruta a un usuario de un sistema Linux.
+**Script hecho en bash para realizar un ataque de fuerza bruta a un usuario de un sistema Linux**
 
 Se ejecuta de la siguiente forma:
 
