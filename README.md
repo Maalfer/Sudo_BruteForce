@@ -3,7 +3,7 @@ Script hecho en bash para realizar un ataque de fuerza bruta a un usuario de un 
 
 Se ejecuta de la siguiente forma:
 
-```
+```bash
 bash Linux-Su-Force.sh mario /usr/share/wordlists/rockyou.txt
 ```
 ![image](https://github.com/Maalfer/Sudo_BruteForce/assets/96432001/8fb151eb-4e87-4521-9dc2-db8ba9a5e41a)
