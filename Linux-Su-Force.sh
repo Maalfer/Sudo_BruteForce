@@ -38,7 +38,7 @@ imprimir_banner
 # Bucle while que lee línea a línea el contenido de la variable $diccionario, que a su vez esta variable recibe el diccionario como parámetro.
 while IFS= read -r password; do
     echo "Probando contraseña: $password"
-    if timeout 0.1 bash -c "echo $password | su $usuario -c 'echo Hello'" > /dev/null; then
+    if timeout 0.1 bash -c "echo '$password' | su $usuario -c 'echo Hello'" > /dev/null; then
         clear
         echo -e "\e[1;32mContraseña encontrada para el usuario $usuario: $password\e[0m"
         break
